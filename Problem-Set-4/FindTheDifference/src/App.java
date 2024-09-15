@@ -1,0 +1,10 @@
+public class App {
+    public char findTheDifference(String s, String t) {
+        int x = 0;
+        for (char i : s.toCharArray())
+            x = x ^ i;
+        for (char i : t.toCharArray())
+            x = x ^ i;
+        return (char) x;
+    }
+}
