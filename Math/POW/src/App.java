@@ -27,8 +27,4 @@ public class App {
             return n < 0 ? (1 / x) * half * half : x * half * half;
         }
     }
-
-    public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-    }
 }
