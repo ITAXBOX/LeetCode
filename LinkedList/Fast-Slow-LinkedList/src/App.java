@@ -1,3 +1,5 @@
+import LinkedList.mergeKLists.ListNode;
+
 class ListNode {
     int val;
     ListNode next;
